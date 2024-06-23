@@ -15,7 +15,7 @@ import { PrivateRoute } from "./components/PrivateRoute.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/trainer-gym-app">
         <Routes>
           <Route path="/" element={<App />}>
             <Route index element={<Home />} />
