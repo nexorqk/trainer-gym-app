@@ -8,7 +8,7 @@ export const Home = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        height: "calc(100% - 60px)",
+        height: "calc(100% - 166px)",
       }}
     >
       <Typography fontSize={50} fontWeight={700}>
